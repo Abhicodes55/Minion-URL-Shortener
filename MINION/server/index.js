@@ -15,7 +15,7 @@ app.use(cors())
 
 
 app.use('/', urlShortnerRouter)
-console.log("DB_URI:", process.env.DB_URI);
+
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
