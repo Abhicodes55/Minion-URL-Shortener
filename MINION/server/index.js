@@ -8,7 +8,7 @@ const urlShortnerRouter = require('./Routes/urlRoutes');
 const useragent = require('express-useragent');
 app.use(express.json());
 app.use(useragent.express());
-app.set('trust proxy', 1);
+app.set('trust proxy',1);
 
 connectDatabase()
 app.use(cors())
