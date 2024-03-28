@@ -6,7 +6,7 @@ import { AiOutlineDelete, AiFillEye, AiOutlineLink } from 'react-icons/ai'
 import Analytics from './Analytics';
 
 const LinkCard = ({ urlDetails, handleDeleteUrl, setIsCopied }) => {
-    const { urlId, originUrl, shortUrl, clicks, _id, browsers, devices } = urlDetails
+    const {  urlId, originUrl, shortUrl, clicks, _id, browsers, devices } = urlDetails
     const [show, setShow] = useState(false);
     
 

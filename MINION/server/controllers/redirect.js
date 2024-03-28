@@ -7,6 +7,7 @@ const redirect = async (req, res) => {
   try {
     const url = await Url.findOne({ urlId: req.params.urlId });
     if (url) {
+      console.log("Redirecting to:", url.originUrl);
       await Url.updateOne(
         {
           urlId: req.params.urlId,
