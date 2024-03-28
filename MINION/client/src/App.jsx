@@ -42,7 +42,7 @@ function App() {
   };
   
   const handleRateLimitExceeded = () => {
-    toast.error('Only 3 requests are allowed per hour.Please try again after some time.');
+    toast.error('Only 20 requests are allowed per hour.Please try again after some time.');
   };
   
   const handleOtherErrors = () => {
