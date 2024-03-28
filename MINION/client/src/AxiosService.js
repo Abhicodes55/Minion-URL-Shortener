@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:3200/'
+const baseURL = 'https://minion-url-shortener-server.vercel.app/'
 
 export const axiosGet = (url) => {
     return axios.get(`${baseURL}${url}`)
