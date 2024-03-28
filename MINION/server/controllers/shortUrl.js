@@ -32,7 +32,7 @@ const generateUrl = async (req, res) => {
       cache.set(originUrl, url);
       res.json(url);
     } else {
-      const shortUrl = `${base}/${urlId}`;
+      const shortUrl = `${base}${urlId}`;
       url = new Url({
         originUrl,
         shortUrl,
