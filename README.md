@@ -9,7 +9,7 @@ Experience the live version of Minion-URL-Shortener hosted on Vercel: [Live Demo
 ## ⚡Features⚡
 - **URL Shortening**: Convert long URLs into short, manageable links that are easy to share.
 - **Analytics**: Access detailed analytics for each URL, including click counts and user engagement.
-- **Click Tracking**: Keep tabs on the number of clicks each shortened URL receives.
+- **Click Tracking**: Keep track of the number of clicks each shortened URL receives.
 - **Browser Monitoring**: Analyze which browsers are being used to access your links.
 - **Device Identification**: Determine whether users are opening your links on desktops, mobiles, or tablets.
 
