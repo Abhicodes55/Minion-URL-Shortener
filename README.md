@@ -76,9 +76,9 @@ For a visual walkthrough of the Minion-URL-Shortener, please refer to below scre
 
 ![Screenshot](https://github.com/Abhicodes55/Minion-URL-Shortener/blob/main/MINION/client/public/SS-2.png)
 
-##🎁 Future Updates
 
-- [ ] Docker implementation
+
+
       
 
 ##👦 Author
